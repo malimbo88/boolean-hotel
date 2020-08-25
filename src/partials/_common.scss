@@ -1,0 +1,12 @@
+// _common.scss
+//Reset
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//General
+body {
+  font-family: $primary_font_family;
+}

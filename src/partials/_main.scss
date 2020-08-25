@@ -1,0 +1,32 @@
+//_main.scss
+main {
+  padding: $common_padding;
+
+  & > h2 {
+    padding-bottom: $h2_padding_bottom;
+    color: $secondary_color;
+  }
+
+  & > p {
+    padding-bottom: $h2_padding_bottom;
+    color: green;
+  }
+
+  .room_table {
+    th {
+      text-align: left;
+      padding: 0 $cell_padding $cell_padding 0;
+      font-size: $th_font_size;
+      text-transform: lowercase;
+    }
+
+    td {
+      padding: $cell_padding;
+      border: 4px solid white;
+      border-left: 0;
+      font-size: $td_font_size;
+      text-transform: lowercase;
+      background-color: lightgrey;
+    }
+  }
+}

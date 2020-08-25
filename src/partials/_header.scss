@@ -1,0 +1,30 @@
+//_header.scss
+header {
+  background-color: $primary_background_color;
+  color: $primary_color;
+  padding: $common_padding;
+  margin-bottom: $header_margin_bottom;
+
+  .menu {
+    list-style: none;
+    font-size: $menu_font_size;
+    text-transform: lowercase;
+
+    .logo {
+      text-transform: uppercase;
+      font-size: $logo_font_size;
+      font-weight: bold;
+      vertical-align: middle;
+    }
+
+    li {
+      display: inline-block;
+      padding-right: $menu_list_padding;
+
+      a {
+        text-decoration: none;
+        color: $primary_color;
+      }
+    }
+  }
+}
